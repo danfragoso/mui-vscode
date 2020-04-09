@@ -2,6 +2,11 @@
     "name": "mui",
     "displayName": "mui",
     "description": "mui language support",
+    "publisher": "danfragoso",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/danfragoso/mui-lang"
+    },
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.43.0"
