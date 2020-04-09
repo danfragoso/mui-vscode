@@ -1,0 +1,25 @@
+{
+    "name": "mui",
+    "displayName": "mui",
+    "description": "mui language support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "mui",
+            "aliases": ["mui", "mui"],
+            "extensions": [".mui"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "mui",
+            "scopeName": "source.mui",
+            "path": "./syntaxes/mui.tmLanguage.json"
+        }]
+    }
+}
